@@ -1,0 +1,80 @@
+@charset "utf-8";
+#title {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 50px;
+	color: #006;
+	text-shadow: 5px 5px 2px #000;
+	color: #3C5FEC;
+	letter-spacing: 1px;
+}
+#contenedor {
+	background-color: #90F;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	width: 960px;
+	border-radius: 10px;
+	box-shadow: 9px 9px 6px #333;
+	
+}
+#cabecera {
+	border-bottom-style: outset;
+	border-bottom-color: #000;
+	
+}
+#noticias {
+	border: medium solid #000;
+	border-radius: 8px;
+	box-shadow: 4px 4px 6px #333;
+	background-color: #CCC;
+	padding-left:10px;
+	padding-top:1px;
+	margin:0px auto;
+}
+#formulario {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+input {
+	float: right;
+}
+#menu {
+	border: medium solid #000;
+	border-radius: 8px;
+	box-shadow: 4px 4px 6px #333;
+	background-color: #CCC;
+	padding-left:10px;
+	padding-top:1px;
+	position:absolute;
+	left:200px;
+	
+
+}
+#subscribe {
+	border: medium solid #000;
+	border-radius: 8px;
+	box-shadow: 4px 4px 6px #333;
+	background-color: #CCC;
+	
+	
+}
+#artistas {
+	border: medium solid #000;
+	border-radius: 8px;
+	box-shadow: 4px 4px 6px #333;
+	background-color: #CCC;
+
+}
+#leftcol {
+	margin-left:15px;
+	width:175px;
+	
+	
+}

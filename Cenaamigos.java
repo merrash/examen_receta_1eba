@@ -38,12 +38,19 @@ Scanner sc = new Scanner(System.in);
 						System.out.print("\ningresa el nombre del ingrediente: ");
 						nombre1 = sc.next();
 						ingrediente.setNombreIngrediente(nombre1);
+						
+						/*String elegir;
+						System.out.print("\nen gramos o en unidades? ");
+	        			elegir = sc.next();
+	        			if (elegir == "gramos") {
+	        				System.out.print("\ningresa cantidad en gramos: ");
+	        				cangr = sc.nextInt();
+	        			}
+	        			else{
+	        				System.out.print("\ningresa cantidaunidad:");
+							cantu = sc.nextInt();
+	        			}*/
 
-						System.out.print("\ningresa cantidadgramos:");
-						cangr = sc.nextInt();
-
-						System.out.print("\ningresa cantidaunidad:");
-						cantu = sc.nextInt();
 
 						if (cangr>0) {
 							
@@ -68,7 +75,7 @@ Scanner sc = new Scanner(System.in);
 
      recetas.add(receta);
      
-     File file = new File("/home/zubiri/CenaAmigosReceta.txt");
+     File file = new File("/home/ubuntu/workspace/CenaAmigosReceta.txt");
    // creates a FileWriter Object
 		FileWriter fw = new FileWriter(file); 
    // Writes the content to the file
